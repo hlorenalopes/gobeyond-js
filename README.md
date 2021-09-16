@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Go Beyond Corebiz - Javascript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto do curso Go Beyond. Como não era um desafio de React, mas sim de Javascript, usei React apenas pela interação de HTML com Javascript, mas não usei componentes.
 
-## Available Scripts
+## Objetivo do desafio
 
-In the project directory, you can run:
+1. Monte um algoritmo: Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
+2. Monte um algoritmo adicionando mais funcionários e ao resultado final o nome da pessoa e formatado em tabela.
+3. Transforme esse algoritmo em Javascript.
 
-### `yarn start`
+## Tempo utilizado
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Usei cerca de duas horas para completar o desafio.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Algoritmo criado incialmente
 
-### `yarn test`
+**Exercício 1:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. criar array de objetos vendedores
+2. ler nome de vendedores[0]
+3. ler salario fixo de vendedores[0]
+4. ler total de vendas efetuadas de vendedores[0] em reais
+5. calcular total de vendas efetuadas de vendedores[0] \* 0.15
+6. limitar resultado do cálculo para duas casas decimais
+7. armazenar cálculo em vendedores[0].totalAReceber
 
-### `yarn build`
+**Exercício 2:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. inserir nome de vendedores[i]
+2. inserir salario fixo de vendedores[i]
+3. inserir total de vendas efetuadas de vendedores[i] em reais
+4. calcular total de vendas efetuadas de vendedores[i] \* 1.15
+5. limitar resultado do cálculo para duas casas decimais
+6. armazenar cálculo em vendedores[i].totalAReceber
+7. mostrar array de objetos em tabela
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Print da aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Print da aplicação](demo.png)
