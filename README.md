@@ -36,4 +36,4 @@ Usei cerca de duas horas para completar o desafio.
 
 ## Print da aplicação
 
-![Print da aplicação](demo.png)
+![Print da aplicação](public/demo.png)
